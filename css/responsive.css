@@ -382,6 +382,16 @@
     }
     .short-by {
         padding: 15px 0;
+        text-align: center;
+    }
+    .pages ul {
+        padding-left: 0px;
+    }
+    .pages {
+        text-align: center;
+    }
+    .pages ul li {
+        margin-left: 10px;
     }
     .pages span {
         width: 100%;
@@ -433,6 +443,21 @@
     }
     .contact-us p {
         padding-bottom: 10px;
+    }
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+    }
+    .dropdown-menu li {
+        border-bottom: 1px dotted var(--hlt_clr);
+        padding: 5px 0px;
+    }
+    .bottom-mid>li>a:after {
+        left: 46%;
+        transform: translate(-50%);
+    }
+    #topbtn {
+        padding: 8px;
+        right: 8px;
     }
 
 
@@ -764,6 +789,24 @@
     .contact-us p {
         padding-bottom: 13px;
     }
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+    }
+
+    .dropdown-menu li {
+        border-bottom: 1px dotted var(--hlt_clr);
+        padding: 5px 0px;
+    }
+
+    .bottom-mid>li>a:after {
+        left: 48%;
+        transform: translate(-50%);
+    }
+    #topbtn {
+        padding: 12px;
+        right: 10px;
+    }
+
 
 
 
@@ -1024,6 +1067,19 @@
     }
     #contact h3 {
         padding-top: 20px;
+    }
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+    }
+
+    .dropdown-menu li {
+        border-bottom: 1px dotted var(--hlt_clr);
+        padding: 5px 0px;
+    }
+
+    .bottom-mid>li>a:after {
+        left: 48%;
+        transform: translate(-50%);
     }
 
     

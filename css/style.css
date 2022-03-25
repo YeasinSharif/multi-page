@@ -130,6 +130,7 @@ label i {
 #bottomnav input#search {
     height: 23px;
     width: 150px;
+    border: none;
 }
 .bottom-right a {
     font-size: 14px;
@@ -1854,6 +1855,9 @@ div#women {
 .brand1 {
     padding-top: 50px !important;
 }
+.product-brand {
+    padding-top:  70px !important;
+}
 
 /* product main section ends here */
 
@@ -2264,6 +2268,13 @@ label#large-label {
 #gridblog {
     padding-top: 100px;
 }
+.blog-pages ul li {
+    margin-left: 0px;
+    padding: 10px 0;
+}
+.blog-short-by {
+    padding: 10px 0;
+}
 /**************  blog grid page css ends**************/
 
 
@@ -2329,4 +2340,48 @@ label#large-label {
 }
 
 /**************  about page css ends**************/
+
+
+
+/*fixed menu*/
+#bottomnav.fixed-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background: var(--white_clr);
+    width: 100%;
+    animation: smooth .5s;
+
+}
+
+@keyframes smooth {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/*fixed menu*/
+
+/* top button */
+#topbtn {
+    background: none;
+    border: none;
+    color: var(--white_clr);
+    background-color: var(--hlt_clr);
+    padding: 15px;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    z-index: 99999999;
+}
+
+/* top button */
 

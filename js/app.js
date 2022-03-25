@@ -147,12 +147,6 @@ $(function () {
 
 
 
-                        /**************  about page javascript starts**************/
-
-   
-
-
-                        /**************  about page javascript ends**************/
 
 
 

@@ -519,6 +519,15 @@
         </div>
     </section>
     <!--copyright section ends here-->
+
+            <!--top button-->
+
+    <button id="topbtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!--top button-->
+
    
 
 
@@ -553,6 +562,43 @@
     <script src="./js/slick.min.js"></script>
     <script src="./js/jquery.spincrement.min.js"></script>
     <script src="./js/app.js"></script>
+
+    <script>
+            /*fixed menu*/
+
+   $(window).on('scroll', function(){
+       if ($(window).scrollTop() > $('#bottomnav').height()){
+           $('#bottomnav').addClass('fixed-menu')
+       }else {
+           $('#bottomnav').removeClass('fixed-menu')
+       }
+   })
+
+   /* fixed menu */
+
+       /*scroll top button*/
+
+    $(window).on('scroll', function() {
+        
+        if($(this).scrollTop() > 450 ) {
+            $('#topbtn').fadeIn(500);
+        }else{
+            $('#topbtn').fadeOut(500);
+        }
+
+    })
+
+
+    
+    $('#topbtn').on('click', function () {
+        $('html,body').animate({
+            scrollTop: 0,
+        },1000)
+    })
+
+    /* scroll top button */
+    </script>
+
 </body>
 
 </html>
