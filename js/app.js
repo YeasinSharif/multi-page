@@ -1,8 +1,12 @@
 $(function () {
-    
+
+
+
+ 
    
 
                       /**************  home page javascript starts**************/
+                       
 
     /* banner slider */
 
@@ -18,6 +22,10 @@ $(function () {
     })
 
     /* banner slider */
+
+    
+
+
     /* brand slider */
    $('.brand-slider').slick({
         prevArrow: '<i class="brand-icons fa fa-chevron-left prv-arrow"></i>',
@@ -30,6 +38,16 @@ $(function () {
          centerPadding: '0px',
         slidesToShow: 5,
         slidesToScroll: 1,
+        responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    }
+  ]
     });
    /* brand slider */
 
@@ -92,6 +110,7 @@ $(function () {
     });
 
     /* testimonial slider */
+    
 
     /* featured section plugin js */
     $('.filtr-container').filterizr();
@@ -102,6 +121,7 @@ $(function () {
         $(this).siblings('.active1').removeClass('active1');
     })
     /* featured section plugin js */
+    
 
         /* microsoft section countdown */
     $('#countdown').countdown('2022/10/10', function (event) {
@@ -133,10 +153,6 @@ $(function () {
 
 
                         /**************  about page javascript ends**************/
-
-
-
-
 
 
 
