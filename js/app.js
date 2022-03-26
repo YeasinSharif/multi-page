@@ -14,7 +14,7 @@ $(function () {
         prevArrow: '<i class="banner-icons fa fa-chevron-left prv-arrow"></i>',
         nextArrow: '<i class="banner-icons fa fa-chevron-right nxt-arrow"></i>',
         dots: false,
-        autoplay: false,
+        autoplay: true,
         speed: 1000,
         fade: true,
         
@@ -31,7 +31,7 @@ $(function () {
         prevArrow: '<i class="brand-icons fa fa-chevron-left prv-arrow"></i>',
         nextArrow: '<i class="brand-icons fa fa-chevron-right nxt-arrow"></i>',
         dots: false,
-        autoplay: false,
+        autoplay: true,
         speed: 900,
         fade: false,
          centerMode: true,
@@ -60,7 +60,8 @@ $(function () {
     $('.latest-slider').slick({
         infinite: true,
         slidesToShow: 4,
-        autoplay: false,
+        autoplay: true,
+        speed: 700,
         slidesToScroll: 1,
         prevArrow: '<i class="latest-icons fa fa-chevron-left prv-arrow"></i>',
         nextArrow: '<i class="latest-icons fa fa-chevron-right nxt-arrow"></i>',
@@ -95,6 +96,7 @@ $(function () {
     $('.testimonial-slider').slick({
         infinite: true,
         slidesToShow: 2,
+        autoplay: true,
         slidesToScroll: 1,
         prevArrow: '<i class="testimonial-icons fa fa-chevron-left prv-arrow"></i>',
         nextArrow: '<i class="testimonial-icons fa fa-chevron-right nxt-arrow"></i>',
